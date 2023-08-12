@@ -9,9 +9,12 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: 3px solid red;
-  border-radius: 19px;
-  padding: 10px 30px;
+}
+.container div{
+  box-shadow: 2px 2px 4px black;
+  padding: 12px 32px;
+  border-radius: 10px;
+  background-color: rgb(40, 40, 123);
 }
 .container h1 {
   border: 3px solid black;
