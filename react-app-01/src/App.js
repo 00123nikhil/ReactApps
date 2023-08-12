@@ -1,8 +1,12 @@
-import './App.css';
+import "./App.css";
+import Counter from "./Components/Fsjs/Counter";
 
 function App() {
   return (
-    <div>React App will updated soon</div>
+    <>
+      <h1>React | Fsjs </h1>
+      <Counter/>
+    </>
   );
 }
 
