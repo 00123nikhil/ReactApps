@@ -1,12 +1,14 @@
 import "./App.css";
-import Cards from "./assets/Cards";
+import Hero from "./Components/Hero";
+import Navigation from "./Components/Navigation";
 
 function App() {
   return (
-    <>
-      <h2>React App</h2>
-      <Cards />
-    </>
+    <div>
+      {/* Static website |Do Something code-yt */}
+      <Navigation />
+      <Hero />
+    </div>
   );
 }
 
