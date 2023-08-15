@@ -4,8 +4,8 @@ import Cards from "./assets/Cards";
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-green-500">this is new vite react app</h1>
-      <Cards/>
+      <h2>React App</h2>
+      <Cards />
     </>
   );
 }

@@ -5,3 +5,8 @@
 Welcome to "My Awesome React App" repository! This is a sample React application that demonstrates the basic structure and features of a modern React project.
 
 
+## Commands
+to install vite 
+```
+npm i vite
+```
