@@ -1,7 +1,14 @@
-## Props in React
+# React Apps
 
-### What is props?
+## List of Components
 
-### Points
+- Props Basics
+- Movie App
+-
 
+## Installed Packages
 
+- Props Types packages
+- Material UI Packages
+- Tailwind CSS
+- Material icons

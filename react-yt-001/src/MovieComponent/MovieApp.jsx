@@ -10,11 +10,15 @@ const MovieApp = () => {
         <Header />
       </div>
       <div className="main">
-        {Movies.map((ele) => {
-          return <Movie 
-          Title={ele.Title} 
-          Year={ele.Year} 
-          Poster={ele.Poster} />;
+        {Movies.map((ele, index) => {
+          return (
+            <Movie
+              key={index}
+              Title={ele.Title}
+              Year={ele.Year}
+              Poster={ele.Poster}
+            />
+          );
         })}
       </div>
     </>

@@ -1,9 +1,11 @@
-import MovieApp from "./MovieComponent/MovieApp";
+import RecordApp from "./RecordKeeper/RecordApp";
 
 function App() {
   return (
     <>
-      <MovieApp />
+      {/* <MovieApp /> */}
+      
+      <RecordApp />
     </>
   );
 }
