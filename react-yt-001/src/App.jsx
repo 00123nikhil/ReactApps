@@ -1,11 +1,11 @@
-import RecordApp from "./RecordKeeper/RecordApp";
+import PropDrillApp from "./PropDrill/PropDrillApp";
+
 
 function App() {
   return (
     <>
-      {/* <MovieApp /> */}
-      
-      <RecordApp />
+      {/* <RecordApp /> */}
+      <PropDrillApp/>
     </>
   );
 }

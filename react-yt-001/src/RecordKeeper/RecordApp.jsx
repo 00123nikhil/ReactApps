@@ -31,6 +31,8 @@ const RecordApp = () => {
             variant="outlined"
           />
           <TextField
+            // event oncopy
+            onCopy={() => window.alert("text copied on your clipBoard")}
             value={email}
             onChange={(event) => setEmail(event.target.value)}
             id="outlined-basic"
